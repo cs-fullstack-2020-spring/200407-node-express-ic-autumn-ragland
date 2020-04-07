@@ -1,0 +1,22 @@
+{
+  "name": "200407-node-express-ic-autumn-ragland",
+  "version": "1.0.0",
+  "description": "### Set Up - Create a JS file called `index.js` - Generate the `package.json` file by running `npm init` in the terminal (accept all defaults) - Install express by running `npm install express` in the terminal - You should see `express` added as a dependency in your `package.json` file - Create a reference to the `express` module using the `require()` method - Create a server by setting the return value of the `express()` method equal to the variable `app` - Call the `listen()` method on the server variable `app` you created, pass in two parameters - a port number and a host name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-fullstack-2020-spring/200407-node-express-ic-autumn-ragland.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs-fullstack-2020-spring/200407-node-express-ic-autumn-ragland/issues"
+  },
+  "homepage": "https://github.com/cs-fullstack-2020-spring/200407-node-express-ic-autumn-ragland#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
